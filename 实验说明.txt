@@ -1,0 +1,7 @@
+姓名: 朱江宁
+学号: 2251238
+1. preprocess.py文件 是对于两个原始.csv文件的数据进行预处理的脚本，输出两个.csv文件，K562_CTCF_test_seq_result.csv和/Users/apple/Desktop/生物信息学综合实验/Binding_site_prediction/K562_CTCF_train_seq_result.csv。两个.csv文件都包含两列,seq列为原始文件中染色体定位在基因组中的比对的具体序列，result列则是标识是否为结合位点。
+2. random_forest.ipynb文件 是使用随机森林模型进行的预测
+3. CNN_predict.ipynb文件 是使用卷积神经网络模型进行的预测
+4. models文件夹存储的是训练好的模型的参数字典
+5. 由于hg38.bit文件较大，因此未带上该文件
